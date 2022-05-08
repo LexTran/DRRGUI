@@ -18,8 +18,8 @@
     <rect>
      <x>36</x>
      <y>0</y>
-     <width>1031</width>
-     <height>868</height>
+     <width>1033</width>
+     <height>915</height>
     </rect>
    </property>
    <property name="font">
@@ -626,66 +626,6 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
-     <widget class="QLabel" name="CTInfoLabel">
-      <property name="minimumSize">
-       <size>
-        <width>130</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>130</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial Rounded MT Bold</family>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QLabel{
-	background-color: rgb(255, 240, 184);
-	border-style: outset;
-    border-radius: 10px;
-}</string>
-      </property>
-      <property name="text">
-       <string> CT Size Info:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="3" colspan="3">
-     <widget class="QTextBrowser" name="CTInfo">
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>40</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial Rounded MT Bold</family>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QTextEdit{
-	background-color: rgb(255, 240, 184);
-	border-style: outset;
-    border-width: 1px;
-    border-radius: 10px;
-}</string>
-      </property>
-     </widget>
-    </item>
     <item row="7" column="0">
      <widget class="QPushButton" name="DRRShow">
       <property name="sizePolicy">
@@ -696,7 +636,7 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>160</width>
+        <width>156</width>
         <height>0</height>
        </size>
       </property>
@@ -781,6 +721,126 @@
       </property>
       <property name="text">
        <string>TradiDRR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="CTInfoLabel">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+	background-color: rgb(255, 240, 184);
+	border-style: outset;
+    border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string> CT Size Info:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3" colspan="3">
+     <widget class="QTextBrowser" name="CTInfo">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextEdit{
+	background-color: rgb(255, 240, 184);
+	border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="ErrInfoLabel">
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+	background-color: rgb(255, 240, 184);
+	border-style: outset;
+    border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Error Info</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3" rowspan="3" colspan="3">
+     <widget class="QTextBrowser" name="ErrInfo">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextEdit{
+	background-color: rgb(255, 240, 184);
+	border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+}</string>
       </property>
      </widget>
     </item>

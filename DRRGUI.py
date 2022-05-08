@@ -13,7 +13,7 @@ class Ui_Form(object):
         Form.setObjectName("Form")
         Form.resize(1085, 852)
         self.gridLayoutWidget = QtWidgets.QWidget(Form)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(36, 0, 1031, 868))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(36, 0, 1033, 915))
         font = QtGui.QFont()
         font.setFamily("Arial Rounded MT Bold")
         self.gridLayoutWidget.setFont(font)
@@ -301,40 +301,13 @@ class Ui_Form(object):
 "}")
         self.Slicer3D.setObjectName("Slicer3D")
         self.gridLayout.addWidget(self.Slicer3D, 1, 0, 1, 1)
-        self.CTInfoLabel = QtWidgets.QLabel(self.gridLayoutWidget)
-        self.CTInfoLabel.setMinimumSize(QtCore.QSize(130, 40))
-        self.CTInfoLabel.setMaximumSize(QtCore.QSize(130, 40))
-        font = QtGui.QFont()
-        font.setFamily("Arial Rounded MT Bold")
-        self.CTInfoLabel.setFont(font)
-        self.CTInfoLabel.setStyleSheet("QLabel{\n"
-"    background-color: rgb(255, 240, 184);\n"
-"    border-style: outset;\n"
-"    border-radius: 10px;\n"
-"}")
-        self.CTInfoLabel.setObjectName("CTInfoLabel")
-        self.gridLayout.addWidget(self.CTInfoLabel, 4, 2, 1, 1, QtCore.Qt.AlignHCenter|QtCore.Qt.AlignVCenter)
-        self.CTInfo = QtWidgets.QTextBrowser(self.gridLayoutWidget)
-        self.CTInfo.setMinimumSize(QtCore.QSize(0, 40))
-        self.CTInfo.setMaximumSize(QtCore.QSize(16777215, 40))
-        font = QtGui.QFont()
-        font.setFamily("Arial Rounded MT Bold")
-        self.CTInfo.setFont(font)
-        self.CTInfo.setStyleSheet("QTextEdit{\n"
-"    background-color: rgb(255, 240, 184);\n"
-"    border-style: outset;\n"
-"    border-width: 1px;\n"
-"    border-radius: 10px;\n"
-"}")
-        self.CTInfo.setObjectName("CTInfo")
-        self.gridLayout.addWidget(self.CTInfo, 4, 3, 1, 3)
         self.DRRShow = QtWidgets.QPushButton(self.gridLayoutWidget)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.DRRShow.sizePolicy().hasHeightForWidth())
         self.DRRShow.setSizePolicy(sizePolicy)
-        self.DRRShow.setMinimumSize(QtCore.QSize(160, 0))
+        self.DRRShow.setMinimumSize(QtCore.QSize(156, 0))
         self.DRRShow.setMaximumSize(QtCore.QSize(160, 16777215))
         font = QtGui.QFont()
         font.setFamily("Arial Rounded MT Bold")
@@ -384,6 +357,60 @@ class Ui_Form(object):
 "}")
         self.DRRShow_2.setObjectName("DRRShow_2")
         self.gridLayout.addWidget(self.DRRShow_2, 7, 3, 1, 1)
+        self.CTInfoLabel = QtWidgets.QLabel(self.gridLayoutWidget)
+        self.CTInfoLabel.setMinimumSize(QtCore.QSize(130, 40))
+        self.CTInfoLabel.setMaximumSize(QtCore.QSize(130, 40))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        self.CTInfoLabel.setFont(font)
+        self.CTInfoLabel.setStyleSheet("QLabel{\n"
+"    background-color: rgb(255, 240, 184);\n"
+"    border-style: outset;\n"
+"    border-radius: 10px;\n"
+"}")
+        self.CTInfoLabel.setObjectName("CTInfoLabel")
+        self.gridLayout.addWidget(self.CTInfoLabel, 3, 2, 1, 1)
+        self.CTInfo = QtWidgets.QTextBrowser(self.gridLayoutWidget)
+        self.CTInfo.setMinimumSize(QtCore.QSize(0, 40))
+        self.CTInfo.setMaximumSize(QtCore.QSize(16777215, 40))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        self.CTInfo.setFont(font)
+        self.CTInfo.setStyleSheet("QTextEdit{\n"
+"    background-color: rgb(255, 240, 184);\n"
+"    border-style: outset;\n"
+"    border-width: 1px;\n"
+"    border-radius: 10px;\n"
+"}")
+        self.CTInfo.setObjectName("CTInfo")
+        self.gridLayout.addWidget(self.CTInfo, 3, 3, 1, 3)
+        self.ErrInfoLabel = QtWidgets.QLabel(self.gridLayoutWidget)
+        self.ErrInfoLabel.setMinimumSize(QtCore.QSize(130, 40))
+        self.ErrInfoLabel.setMaximumSize(QtCore.QSize(130, 40))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        self.ErrInfoLabel.setFont(font)
+        self.ErrInfoLabel.setStyleSheet("QLabel{\n"
+"    background-color: rgb(255, 240, 184);\n"
+"    border-style: outset;\n"
+"    border-radius: 10px;\n"
+"}")
+        self.ErrInfoLabel.setObjectName("ErrInfoLabel")
+        self.gridLayout.addWidget(self.ErrInfoLabel, 5, 2, 1, 1)
+        self.ErrInfo = QtWidgets.QTextBrowser(self.gridLayoutWidget)
+        self.ErrInfo.setMinimumSize(QtCore.QSize(0, 0))
+        self.ErrInfo.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setFamily("Arial Rounded MT Bold")
+        self.ErrInfo.setFont(font)
+        self.ErrInfo.setStyleSheet("QTextEdit{\n"
+"    background-color: rgb(255, 240, 184);\n"
+"    border-style: outset;\n"
+"    border-width: 1px;\n"
+"    border-radius: 10px;\n"
+"}")
+        self.ErrInfo.setObjectName("ErrInfo")
+        self.gridLayout.addWidget(self.ErrInfo, 4, 3, 3, 3)
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -405,7 +432,8 @@ class Ui_Form(object):
         self.DeepDRRDisplay.setText(_translate("Form", "DeepDRR"))
         self.Todo.setText(_translate("Form", "todo"))
         self.Slicer3D.setText(_translate("Form", "3DSlicer"))
-        self.CTInfoLabel.setText(_translate("Form", " CT Size Info:"))
         self.DRRShow.setText(_translate("Form", "DeepDRR"))
         self.DRRShow_2.setText(_translate("Form", "TradiDRR"))
+        self.CTInfoLabel.setText(_translate("Form", " CT Size Info:"))
+        self.ErrInfoLabel.setText(_translate("Form", "Error Info"))
 
