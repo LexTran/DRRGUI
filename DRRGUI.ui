@@ -165,7 +165,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -310,7 +310,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -357,7 +357,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -603,7 +603,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -649,7 +649,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
@@ -698,7 +698,7 @@
       <property name="font">
        <font>
         <family>Arial Rounded MT Bold</family>
-        <pointsize>-1</pointsize>
+        <pointsize>1</pointsize>
         <weight>75</weight>
         <italic>false</italic>
         <bold>true</bold>
